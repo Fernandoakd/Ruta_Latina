@@ -44,7 +44,7 @@ Para clonar y ejecutar este proyecto en tu máquina local, sigue estos pasos:
     npm run dev
     ```
 
-5. Abre tu navegador y visita `http://localhost:5143` para ver la aplicación en funcionamiento, si esta URL no funciona, verificar el puerto en el cual generó la vista de la página en la terminal.
+5. Abre tu navegador y visita `http://localhost:5173` para ver la aplicación en funcionamiento, si esta URL no funciona, verificar el puerto en el cual generó la vista de la página en la terminal. Es importante aclarar que para que la aplicación funcione en vercel. En los archivos "mainStatisticsFetching.js" y "packagesFetching.js" se modifico la URL de `http://localhost:5173` por `https://ruta-latina.vercel.app`.
 
 ## Despliegue
 
@@ -54,8 +54,12 @@ El proyecto se encuentra desplegado en [Vercel](https://vercel.com/). Podrás ac
 
 El proyecto sigue la estructura estándar de React. Los componentes principales incluyen:
 
-- `Home.jsx`: Página principal con la lista de destinos populares.
-- `HomeSearch.jsx`: Componente para la búsqueda de paquetes turísticos por destino, precio, y fecha.
+- `App.jsx`: Componente que contiene el enrutamiento de las distintas páginas.
+- `Home.jsx`: Página principal donde se visualiza la información de la empresa y la lista de destinos populares.
+- `Packages.jsx`: Página que muestra la lista de destinos y su información.
+- `DetailsPack.jsx`: Página que muestra la información del destino seleccionado y un formulario para solicitar más información.
+
+Cada uno de ellos posee componentes que contienen la estructura de las páginas.
 
 ## Contribuciones
 
