@@ -53,7 +53,7 @@ const DetailsPack = ({ packages }) => {
                 <h2 className='product-destination'>Viaja a {destTitle}</h2>
                 </div>
                 <img
-                src={`../../../src/assets/${imgSrc}`}
+                src={`/assets/${imgSrc}`}
                 alt={destTitle}
                 className='product-image'
                 />

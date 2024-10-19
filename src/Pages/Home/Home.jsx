@@ -60,7 +60,7 @@ const Home = ({isHome}) => {
                 }
                 <section className='travelers-point'>
                     <div className='img-travelers'>
-                        <img src='src\assets\viajeros.jpeg' alt='Viajeros' />
+                        <img src='/assets/viajeros.jpeg' alt='Viajeros' />
                     </div>
                     <div className='info-travelers'>
                         <h3 className='travelers-title'>Rutas soñadas</h3>

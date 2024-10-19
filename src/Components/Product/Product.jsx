@@ -7,7 +7,7 @@ const Product = ({id, imgSrc, destTitle, location, grade, fees}) => {
   return (
     <div className='single-package'>
         <div className='package-image'>
-            <img src={`../../../src/assets/${imgSrc}`} alt={destTitle} />
+            <img src={`/assets/${imgSrc}`} alt={destTitle} />
         </div>
         <div className='package-info'>
             <h4 className='package-title'>{destTitle}</h4>

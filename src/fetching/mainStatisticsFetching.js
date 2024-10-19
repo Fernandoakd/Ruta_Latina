@@ -1,5 +1,5 @@
 const solicitarEstadisticasPrincipales = async () => {
-    const URL_API_MAIN_STATISTICS = 'http://localhost:5173/data/main-statistics.json'
+    const URL_API_MAIN_STATISTICS = 'https://ruta-latina.vercel.app/data/main-statistics.json'
 
     const responseHttp = await fetch(URL_API_MAIN_STATISTICS,
         {

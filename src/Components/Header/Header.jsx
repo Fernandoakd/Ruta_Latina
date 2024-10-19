@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import Navbar from '../Navbar/Navbar'
-import imageBkgHeader from '../../assets/bkg-ppal.png'
+import imageBkgHeader from '/assets/bkg-ppal.png'
 import HomeSearch from '../HomeSearch/HomeSearch'
 
 

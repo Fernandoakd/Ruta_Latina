@@ -1,5 +1,5 @@
 const solicitarPaquetes = async () => {
-    const URL_API_PACKAGES = 'http://localhost:5173/data/packages.json'
+    const URL_API_PACKAGES = 'https://ruta-latina.vercel.app/data/packages.json'
 
     const responseHttp = await fetch(URL_API_PACKAGES,
         {

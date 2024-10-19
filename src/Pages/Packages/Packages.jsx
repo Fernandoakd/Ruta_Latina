@@ -14,7 +14,7 @@ const Packages = () => {
       <Header/>
       <main className='packages-main-container'>
         <div className='packages-section'>
-          <img src='../../../src/assets/package-section.jpg' alt='Paquetes' className='img-packages-section' />
+          <img src='/assets/package-section.jpg' alt='Paquetes' className='img-packages-section' />
           <div className='packages-section-info'>
             <h2 className='title-packages-section'>Paquetes</h2>
           </div>
