@@ -1,0 +1,47 @@
+.btns-filter-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    padding: 0 1rem;
+}
+
+.btn-filter-zone, .btn-filter-all {
+    border-radius: 3rem;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0.75rem 1.5rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    min-height: 48px;
+}
+
+.btn-filter-zone:hover, .btn-filter-all:hover {
+    background-color: var(--secondary-color);
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .btns-filter-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .btn-filter-zone, .btn-filter-all {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .btn-filter-zone, .btn-filter-all {
+        font-size: 14px;
+        padding: 0.5rem 1rem;
+    }
+}

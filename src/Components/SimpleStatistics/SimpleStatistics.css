@@ -1,0 +1,31 @@
+@import url(../../../styles/variables.css);
+
+.statistics{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 5px;
+    flex: 50%;
+}
+
+.statistics .statistics-number{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.statistics .statistics-title{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .statistics .statistics-number{
+        font-size: 20px;
+    }
+    
+    .statistics .statistics-title{
+        font-size: 14px;
+    }
+}

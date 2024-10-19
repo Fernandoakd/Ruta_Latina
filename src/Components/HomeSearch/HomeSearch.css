@@ -1,0 +1,102 @@
+@import url(../../../styles/variables.css);
+
+.home-search-container{
+    position: relative;
+    padding: 2rem 1rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.home-search-container label{
+    display: block;
+    color: var(--text-color);
+    padding-bottom: 10px;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.home-search-container form{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+.label-total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.label-total .total{
+    color: var(--text-color);
+    font-size: .9rem;
+    padding-bottom: 10px;
+}
+
+.home-search-input{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 1rem;
+    background: var(--input-color);
+    border-radius: 3rem;
+}
+
+.home-search-input input{
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.home-search-input input::placeholder{
+    font-size: 13px;
+    color: black;
+}
+
+
+.home-search-input .icon{
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.home-search-input input[type=range]{
+    accent-color: var(--primary-color);
+}
+
+.search-button{
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.search-button button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    padding: 4px 8px;
+    border-radius: 3rem;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.search-button button:hover{
+    background-color: var(--secondary-color);
+}
+
+@media screen and (max-width: 768px) {
+    .home-search-container form {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+}
+

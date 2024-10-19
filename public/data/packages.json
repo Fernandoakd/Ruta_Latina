@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "imgSrc": "img_punta_cana.jpg",
+    "destTitle": "Punta Cana",
+    "location": "República Dominicana",
+    "grade": "CULTURAL RELAX",
+    "fees": "1000",
+    "description": "Relájate en Punta Cana con los mejores precios, con lugares confirmados todo el año. Todos nuestros programas incluyen seguro de asistencia al viajero. Consulta a tu agencia de viajes.",
+    "zone": "Caribe",
+    "popularity": "Alta"
+  },
+  {
+    "id": 2,
+    "imgSrc": "img_cancun.jpg",
+    "destTitle": "Cancún",
+    "location": "México",
+    "grade": "AVENTURA Y RELAX",
+    "fees": "1200",
+    "description": "Disfruta de las playas de Cancún con actividades acuáticas y excursiones a sitios arqueológicos. Paquetes todo incluido con hospedaje en los mejores resorts.",
+    "zone": "América del Norte",
+    "popularity": "Alta"
+  },
+  {
+    "id": 3,
+    "imgSrc": "img_bahamas.jpg",
+    "destTitle": "Nassau",
+    "location": "Bahamas",
+    "grade": "RELAX",
+    "fees": "1300",
+    "description": "Descubre las hermosas playas de Nassau con un paquete exclusivo para parejas y familias. Incluye actividades de snorkel y tours a islas privadas.",
+    "zone": "Caribe",
+    "popularity": "Alta"
+  },
+  {
+    "id": 4,
+    "imgSrc": "img_varadero.jpg",
+    "destTitle": "Varadero",
+    "location": "Cuba",
+    "grade": "CULTURAL Y PLAYAS",
+    "fees": "900",
+    "description": "Visita Varadero con nuestro paquete cultural y de playas, con recorridos por La Habana y disfrute de las arenas blancas de Varadero. Seguro de viaje incluido.",
+    "zone": "Caribe",
+    "popularity": "Media"
+  },
+  {
+    "id": 5,
+    "imgSrc": "img_jamaica.jpg",
+    "destTitle": "Montego Bay",
+    "location": "Jamaica",
+    "grade": "AVENTURA Y CULTURA",
+    "fees": "1100",
+    "description": "Experimenta la vibra única de Montego Bay, con excursiones culturales, deportes acuáticos y los mejores resorts frente al mar. Incluye traslados y tours locales.",
+    "zone": "Caribe",
+    "popularity": "Media"
+  },
+  {
+    "id": 6,
+    "imgSrc": "img_rio_de_janeiro.jpg",
+    "destTitle": "Río de Janeiro",
+    "location": "Brasil",
+    "grade": "CULTURA Y PLAYAS",
+    "fees": "1400",
+    "description": "Disfruta de las playas de Copacabana e Ipanema, además de los atractivos culturales de Río de Janeiro. Incluye tours al Cristo Redentor y el Pan de Azúcar.",
+    "zone": "América del Sur",
+    "popularity": "Alta"
+  },
+  {
+    "id": 7,
+    "imgSrc": "img_salvador_bahia.jpg",
+    "destTitle": "Salvador de Bahía",
+    "location": "Brasil",
+    "grade": "HISTORIA Y PLAYAS",
+    "fees": "1000",
+    "description": "Explora la vibrante cultura de Salvador de Bahía, con su rica historia, música y playas increíbles. Paquete incluye hospedaje en hoteles frente al mar.",
+    "zone": "América del Sur",
+    "popularity": "Media"
+  },
+  {
+    "id": 8,
+    "imgSrc": "img_cartagena.jpg",
+    "destTitle": "Cartagena",
+    "location": "Colombia",
+    "grade": "HISTORIA Y RELAX",
+    "fees": "1100",
+    "description": "Descubre la historia colonial de Cartagena y sus playas caribeñas. Paquete todo incluido con visitas a las Islas del Rosario y recorridos por el centro histórico.",
+    "zone": "Caribe",
+    "popularity": "Alta"
+  },
+  {
+    "id": 9,
+    "imgSrc": "img_san_andres.jpg",
+    "destTitle": "San Andrés",
+    "location": "Colombia",
+    "grade": "RELAX",
+    "fees": "1050",
+    "description": "Relájate en las aguas cristalinas de San Andrés, con paquetes de todo incluido. Actividades de snorkel y paseos en bote por la isla.",
+    "zone": "Caribe",
+    "popularity": "Media"
+  },
+  {
+    "id": 10,
+    "imgSrc": "img_buenos_aires.jpg",
+    "destTitle": "Buenos Aires",
+    "location": "Argentina",
+    "grade": "CULTURAL Y GASTRONOMÍA",
+    "fees": "900",
+    "description": "Descubre la vibrante vida cultural y gastronómica de Buenos Aires. Incluye tours por los barrios icónicos como Palermo, San Telmo y La Boca, y entradas para espectáculos de tango.",
+    "zone": "América del Sur",
+    "popularity": "Media"
+  },
+  {
+    "id": 11,
+    "imgSrc": "img_bariloche.jpg",
+    "destTitle": "Bariloche",
+    "location": "Argentina",
+    "grade": "AVENTURA Y NATURALEZA",
+    "fees": "1200",
+    "description": "Explora los hermosos paisajes montañosos de Bariloche, con actividades como senderismo, esquí y paseos en barco por los lagos. Paquete incluye traslados y hospedaje.",
+    "zone": "América del Sur",
+    "popularity": "Media"
+  },
+  {
+    "id": 12,
+    "imgSrc": "img_santiago.jpg",
+    "destTitle": "Santiago",
+    "location": "Chile",
+    "grade": "CULTURAL Y AVENTURA",
+    "fees": "1100",
+    "description": "Explora la mezcla de modernidad y tradición en Santiago de Chile, con vistas a la Cordillera de los Andes. Incluye visitas a viñedos y excursiones a la costa del Pacífico.",
+    "zone": "América del Sur",
+    "popularity": "Media"
+  },
+  {
+    "id": 13,
+    "imgSrc": "img_san_pedro_atacama.jpg",
+    "destTitle": "San Pedro de Atacama",
+    "location": "Chile",
+    "grade": "AVENTURA Y NATURALEZA",
+    "fees": "1400",
+    "description": "Descubre el impresionante desierto de Atacama, con tours a los géiseres, salares y lagunas altiplánicas. Paquete incluye guías locales y actividades de aventura.",
+    "zone": "América del Sur",
+    "popularity": "Media"
+  },
+  {
+    "id": 14,
+    "imgSrc": "img_miami.jpg",
+    "destTitle": "Miami",
+    "location": "Estados Unidos",
+    "grade": "PLAYAS Y SHOPPING",
+    "fees": "1500",
+    "description": "Disfruta del sol en las famosas playas de Miami y aprovecha las mejores oportunidades de compras. Paquete incluye recorridos por South Beach y excursiones a los Everglades.",
+    "zone": "América del Norte",
+    "popularity": "Alta"
+  },
+  {
+    "id": 15,
+    "imgSrc": "img_playa_del_carmen.jpg",
+    "destTitle": "Playa del Carmen",
+    "location": "México",
+    "grade": "RELAX Y AVENTURA",
+    "fees": "1150",
+    "description": "Disfruta de Playa del Carmen, un destino ideal para relajarse en sus playas de arena blanca o explorar sitios arqueológicos cercanos como Tulum y Cobá. Paquete incluye visitas a cenotes.",
+    "zone": "América del Norte",
+    "popularity": "Alta"
+  },
+  {
+    "id": 16,
+    "imgSrc": "img_cozumel.jpg",
+    "destTitle": "Cozumel",
+    "location": "México",
+    "grade": "AVENTURA Y BUCEO",
+    "fees": "1300",
+    "description": "Experimenta el paraíso submarino de Cozumel, uno de los mejores destinos de buceo del mundo. Paquete incluye actividades acuáticas, snorkel y tours por la isla.",
+    "zone": "América del Norte",
+    "popularity": "Media"
+  },
+  {
+    "id": 17,
+    "imgSrc": "img_havana.jpg",
+    "destTitle": "La Habana",
+    "location": "Cuba",
+    "grade": "HISTORIA Y CULTURA",
+    "fees": "1000",
+    "description": "Descubre el encanto histórico de La Habana, con recorridos por sus calles coloniales, museos y una vibrante vida cultural. Paquete incluye alojamiento en hoteles históricos y tours guiados.",
+    "zone": "Caribe",
+    "popularity": "Alta"
+  },
+  {
+    "id": 18,
+    "imgSrc": "img_tulum.jpg",
+    "destTitle": "Tulum",
+    "location": "México",
+    "grade": "PLAYA Y CULTURA",
+    "fees": "1200",
+    "description": "Explora las antiguas ruinas mayas frente al mar en Tulum y relájate en sus playas de ensueño. Paquete incluye excursiones a la Reserva de la Biosfera de Sian Ka'an.",
+    "zone": "América del Norte",
+    "popularity": "Media"
+  }
+]

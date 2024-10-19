@@ -1,0 +1,88 @@
+@import url(../../../styles/variables.css);
+
+.main-container{
+    padding: 3rem;
+}
+
+.travelers-point{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    justify-content: space-between;
+}
+
+.info-travelers{
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.info-travelers .travelers-title{
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+
+.info-travelers .travelers-subtitle{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.info-travelers .travelers-text{
+    font-size: 14px;
+    color: var(--text-color);
+}
+
+.info-travelers .travelers-statistics{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.img-travelers{
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popular-destination, .search-no-result, .search-results{
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.sec-title .title{
+    width: max-content;
+    color: var(--secondary-color);
+    margin: 2rem auto;
+    font-size: 22px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+    text-transform: inherit;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 768px) {
+    .main-container{
+        padding: 1.5rem;
+    }
+    .travelers-point{
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+        justify-content: space-between;
+    }
+
+    .info-travelers .travelers-subtitle{
+        font-size: 20px;
+    }
+}

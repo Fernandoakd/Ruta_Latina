@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "title": "Paquetes turisticos",
+      "data-value": "100+"
+    },
+    {
+      "id": 2,
+      "title": "Hoteles",
+      "data-value": 172
+    },
+    {
+      "id": 3,
+      "title": "Transportes de élite",
+      "data-value": 68
+    },
+    {
+      "id": 4,
+      "title": "Sueños cumplidos",
+      "data-value": "32M"
+    }
+  ]
