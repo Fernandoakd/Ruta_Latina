@@ -19,7 +19,7 @@ const removeNavbar = () => {
       <div className='logo-name'>        
         <div className='logo-container logo-circle'>
           <Link to='/home' className='logo'>
-            <img src='../../../src/assets/ruta-latina-logo-hq.png' alt='Logo' />
+            <img src='/assets/ruta-latina-logo-hq.png' alt='Logo' />
           </Link>
         </div>
         <h1 className='page-name'>Ruta Latina</h1>
