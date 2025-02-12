@@ -1,0 +1,158 @@
+@import url(../../../styles/variables.css);
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: var(--background-color);
+    gap: 1.5rem;
+}
+
+.profile-section, .reservations-section {
+    background: var(--card-background);
+    padding: 1.2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.profile-section {
+    margin-bottom: 1rem;
+}
+
+.profile-section h2, .reservations-section h2 {
+    color: var(--secondary-color);
+    font-size: 20px;
+    margin-bottom: 8px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.profile-info p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: var(--text-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+}
+
+.reset-password-btn {
+    background: var(--secondary-color);
+    color: white;
+    font-size: 14px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+.reset-password-btn:hover {
+    background: var(--primary-color);
+}
+
+.orders-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.order-card {
+    background: var(--card-background);
+    width: 280px;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.order-card:hover {
+    transform: scale(1.03);
+}
+
+.order-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.order-info {
+    margin-top: 8px;
+}
+
+.order-info p {
+    font-size: 13px;
+    color: var(--text-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+}
+
+.status-confirmed {
+    color: green;
+    font-weight: bold;
+}
+
+.status-pending {
+    color: orange;
+    font-weight: bold;
+}
+
+.status-cancelled {
+    color: red;
+    font-weight: bold;
+}
+
+.profile-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.password-message {
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.password-message.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.password-message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+
+@media screen and (max-width: 768px) {
+    .profile-container {
+        padding: 1rem;
+    }
+
+    .profile-section,
+    .reservations-section {
+        padding: 0.8rem;
+    }
+
+    .order-card {
+        width: 90%;
+    }
+
+    .profile-info p, .order-info p {
+        font-size: 12px;
+    }
+}

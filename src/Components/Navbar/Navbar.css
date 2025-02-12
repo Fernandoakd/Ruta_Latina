@@ -58,6 +58,10 @@ ul{
     column-gap: 1rem;
 }
 
+.nav-item{
+    white-space: nowrap;
+}
+
 .nav-link{
     color: white;
     font-size: .9rem;
@@ -80,6 +84,60 @@ ul{
 .toogle-navbar, .close-navbar{
     display: none;
 }
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.confirm-btn {
+    background: #43B97F;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.confirm-btn:hover {
+    background: #369b6a;
+}
+
+.cancel-btn {
+    background: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancel-btn:hover {
+    background: #c9302c;
+}
+
 
 @media screen and (max-width: 768px) {
     .logo-name{

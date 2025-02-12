@@ -1,13 +1,13 @@
-import React from 'react'
-import './Product.css'
-import { BorderLocationIcon } from '../../Icons'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import './Product.css';
+import { BorderLocationIcon } from '../../Icons';
+import { Link } from 'react-router-dom';
 
-const Product = ({id, imgSrc, destTitle, location, grade, fees}) => {
+const Product = ({ id, package_img, destTitle, location, grade, fees }) => {
   return (
     <div className='single-package'>
         <div className='package-image'>
-            <img src={`/assets/${imgSrc}`} alt={destTitle} />
+            <img src={package_img} alt={destTitle} />
         </div>
         <div className='package-info'>
             <h4 className='package-title'>{destTitle}</h4>
@@ -28,7 +28,7 @@ const Product = ({id, imgSrc, destTitle, location, grade, fees}) => {
             </Link>
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default Product
+export default Product;

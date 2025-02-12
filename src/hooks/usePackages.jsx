@@ -1,39 +1,51 @@
-import { useEffect, useState } from "react"
-import solicitarPaquetes from "../fetching/packagesFetching"
+import { useEffect, useState } from "react";
+import { useFetch } from "../hooks/useFetch";
+import ENVIROMENT from "../utils/constants/enviroment";
 
 const usePackages = () => {
-    const [packages, setPackages] = useState([])
-    const [allPackages, setAllPackages] = useState([])
-    const [packagesZone, setPackagesZone] = useState([])
+    const { loading, data, error, callFetch } = useFetch(
+        `${ENVIROMENT.API_URL}/api/packages`,
+        {
+            method: "GET",
+            headers: { "Content-Type": "application/json" }
+        },
+        [],
+        false
+    );
 
-    const getPackages = async () => {
-        const packages = await solicitarPaquetes()
-        const menuPackages = [...new Set(packages.map((pack) => {
-            return (
-                pack.zone
-            )
-        }))]
-        setPackagesZone(menuPackages)
-        setAllPackages(packages)
-        setPackages(packages)
-    }
+    const [packages, setPackages] = useState([]);
+    const [allPackages, setAllPackages] = useState([]);
+    const [packagesZone, setPackagesZone] = useState([]);
+
+    useEffect(() => {
+        callFetch();
+    }, []);
+
+    useEffect(() => {
+        if (data && data.ok) {
+            const fetchedPackages = data.data;
+            setPackages(fetchedPackages);
+            setAllPackages(fetchedPackages);
+
+            const menuPackages = [...new Set(fetchedPackages.map((pack) => pack.zone))];
+            setPackagesZone(menuPackages);
+        }
+    }, [data]);
 
     const filterPackagesZone = (zoneValue) => {            
-        const newPacks = allPackages.filter(({zone}) => zone === zoneValue)
-        setPackages(newPacks)        
-    }
-    
-    useEffect(() => {
-        getPackages()
-    }, [])
-    
-    return {
-        packages: packages,
-        filterPackagesZone,
-        getPackages,
-        packagesZone: packagesZone,
-        allPackages: allPackages,
-    }
-}
+        const newPacks = allPackages.filter(({ zone }) => zone === zoneValue);
+        setPackages(newPacks);
+    };
 
-export default usePackages
+    return {
+        packages,
+        filterPackagesZone,
+        getPackages: callFetch,
+        packagesZone,
+        allPackages,
+        loading,
+        error
+    };
+};
+
+export default usePackages;

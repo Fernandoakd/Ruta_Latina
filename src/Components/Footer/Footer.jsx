@@ -22,23 +22,23 @@ const Footer = () => {
                     <div className='company-links'>
                         <h3 className='company-info-title'>Enlaces</h3>
                         <ul>
-                            <a href='' className='link'>
+                            <a href='' className='link-footer'>
                                 <ChevronRightIcon className='icon' />
                                 <li className='company-link'>Descubrir</li>
                             </a>
-                            <a href='' className='link'>
+                            <a href='' className='link-footer'>
                                 <ChevronRightIcon className='icon'/>
                                 <li className='company-link'>Ofertas especiales</li>
                             </a>
-                            <a href='' className='link'>
+                            <a href='' className='link-footer'>
                                 <ChevronRightIcon className='icon'/>
                                 <li className='company-link'>Servicios</li>
                             </a>
-                            <a href='' className='link'>
+                            <a href='' className='link-footer'>
                                 <ChevronRightIcon className='icon'/>
                                 <li className='company-link'>Comunidad</li>
                             </a>
-                            <a href='' className='link'>
+                            <a href='' className='link-footer'>
                                 <ChevronRightIcon className='icon'/>
                                 <li className='company-link'>Sobre nosotros</li>
                             </a>
@@ -47,23 +47,23 @@ const Footer = () => {
                     <div className='company-services'>
                         <h3 className='company-info-title'>Servicios</h3>
                         <ul>
-                            <a href='' className='link'>
+                            <a href='' className='link-footer'>
                                 <ChevronRightIcon className='icon'/>
                                 <li className='company-service'>Sobre nosotros</li>
                             </a>
-                            <a href='' className='link'>
+                            <a href='' className='link-footer'>
                                 <ChevronRightIcon className='icon'/>
                                 <li className='company-service'>Blogs y artículos</li>
                             </a>
-                            <a href='' className='link'>
+                            <a href='' className='link-footer'>
                                 <ChevronRightIcon className='icon'/>
                                 <li className='company-service'>Términos y condiciones</li>
                             </a>
-                            <a href='' className='link'>
+                            <a href='' className='link-footer'>
                                 <ChevronRightIcon className='icon'/>
                                 <li className='company-service'>Política de privacidad</li>
                             </a>
-                            <a href='' className='link'>
+                            <a href='' className='link-footer'>
                                 <ChevronRightIcon className='icon'/>
                                 <li className='company-service'>Contáctenos</li>
                             </a>
@@ -81,10 +81,10 @@ const Footer = () => {
                 <div className='redes-container'>
                     <h3 className='owner'>Fer Valdez</h3>
                     <div className='redes-icons'>
-                        <a href='' className='link'><InstagramIcon className='icon-redes' /></a>
-                        <a href='' className='link'><FacebookIcon className='icon-redes' /></a>
-                        <a href='' className='link'><TwitterIcon className='icon-redes' /></a>
-                        <a href='' className='link'><GitHubIcon className='icon-redes' /></a>
+                        <a href='' className='link-footer'><InstagramIcon className='icon-redes' /></a>
+                        <a href='' className='link-footer'><FacebookIcon className='icon-redes' /></a>
+                        <a href='' className='link-footer'><TwitterIcon className='icon-redes' /></a>
+                        <a href='' className='link-footer'><GitHubIcon className='icon-redes' /></a>
                     </div>
                 </div>
             </div>

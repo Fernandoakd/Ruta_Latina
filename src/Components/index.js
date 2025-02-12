@@ -5,5 +5,6 @@ import HomeSearch from './HomeSearch/HomeSearch.jsx';
 import SimpleStatistics from './SimpleStatistics/SimpleStatistics.jsx';
 import Product from './Product/Product.jsx';
 import ButtonsFilter from './ButtonsFilter/ButtonsFilter.jsx';
+import ProtectedRoute from './ProtectedRoute/ProtectedRoute.jsx';
 
-export { Header, Footer, Navbar, HomeSearch, SimpleStatistics, Product, ButtonsFilter}
+export { Header, Footer, Navbar, HomeSearch, SimpleStatistics, Product, ButtonsFilter, ProtectedRoute}

@@ -50,8 +50,8 @@ const Home = ({isHome}) => {
                                         <h3 className='title'>Destinos encontrados...</h3>
                                     </div>
                                     <div className='content'>
-                                        {filteredPackages.map(({id, imgSrc, destTitle, location, grade, fees, description}) => (
-                                            <Product key={id} id={id} imgSrc={imgSrc} destTitle={destTitle} location={location} grade={grade} fees={fees} description={description} />
+                                        {filteredPackages.map(({_id, package_img, destTitle, location, grade, fees, description}) => (
+                                            <Product key={_id} id={_id} package_img={package_img} destTitle={destTitle} location={location} grade={grade} fees={fees} description={description} />
                                         ))}
                                     </div>
                                 </section>
@@ -85,9 +85,9 @@ const Home = ({isHome}) => {
                     </div>
                     <div className='content'>
                         {
-                            popularPackages.map(({id, imgSrc, destTitle, location, grade, fees, description}) => {
+                            popularPackages.map(({_id, package_img, destTitle, location, grade, fees, description}) => {
                                 return (
-                                    <Product key={id} id={id} imgSrc={imgSrc} destTitle={destTitle} location={location} grade={grade} fees={fees} description={description}/>
+                                    <Product key={_id} id={_id} package_img={package_img} destTitle={destTitle} location={location} grade={grade} fees={fees} description={description}/>
                                 )
                             })
                         }

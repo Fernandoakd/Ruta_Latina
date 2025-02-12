@@ -1,0 +1,182 @@
+@import url(../../../styles/variables.css);
+
+.auth-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--input-color);
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.logo-name-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.logo-container-login{
+    width: 17%;
+    min-width: 70px;
+    height: max-content;
+}
+
+.page-name{
+    display: none;
+}
+
+.logo-container-login:hover{
+    border: 2px solid rgb(206, 205, 205);
+    border-radius: 50%;
+}
+
+.logo-circle{
+    border: 1px solid lightgray;
+    border-radius: 50%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    color: var(--title-color);
+    margin-bottom: 1rem;
+}
+
+.input-container {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.input-container label {
+    display: block;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+    background: var(--input-color);
+    color: var(--title-color);
+}
+
+
+.error-message {
+    color: red;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.extra-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.extra-links .link {
+    margin-top: 0.5rem;
+}
+
+.link {
+    color: var(--secondary-color);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+.password-container {
+    position: relative;
+}
+
+.password-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.password-wrapper input {
+    width: 100%;
+    padding-right: 40px;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: var(--title-color);
+}
+
+.password-toggle:hover {
+    color: var(--secondary-color);
+}
+
+
+@media (max-width: 768px) {
+    .auth-form {
+        font-size: 0.85rem;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .input-container label {
+        font-size: 0.85rem;
+    }
+
+    .input-container input {
+        font-size: 0.85rem;
+    }
+
+    .error-message {
+        font-size: 0.75rem;
+    }
+
+    .submit-btn {
+        font-size: 0.9rem;
+    }
+
+    .extra-links {
+        font-size: 0.8rem;
+    }
+}
+
