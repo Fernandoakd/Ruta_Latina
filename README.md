@@ -58,6 +58,8 @@ El proyecto sigue la estructura estándar de React. Los componentes principales 
 - `Home.jsx`: Página principal donde se visualiza la información de la empresa y la lista de destinos populares.
 - `Packages.jsx`: Página que muestra la lista de destinos y su información.
 - `DetailsPack.jsx`: Página que muestra la información del destino seleccionado y un formulario para solicitar más información.
+- `Login.jsx`: Página que muestra el formulario para Inicio de sesión el cual dará acceso al usuario a la vista detallada de los paquetes y tambien la sección de Mi Perfil.
+- `Profile.jsx`: Página que muestra información del usuario que se encuentra logueado, asi como sus solicitudes de reserva.
 
 Cada uno de ellos posee componentes que contienen la estructura de las páginas.
 
